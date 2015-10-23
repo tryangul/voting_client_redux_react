@@ -1,5 +1,7 @@
 import React from 'react/addons';
 import classNames from 'classnames'
+import PureRenderMixin from "react-addons-pure-render-mixin";
+
 
 export default React.createClass({
   mixins: [React.addons.PureRenderMixin],
